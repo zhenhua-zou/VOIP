@@ -1,0 +1,5 @@
+program "send": output wav to sound card
+phone_orig.wav: the orig wav file, 16bit, 8K, mono
+phone_encode.wav: encode the adpcm 16kbps
+phone_decode.wav: the decode file
+

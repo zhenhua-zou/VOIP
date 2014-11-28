@@ -1,0 +1,4 @@
+It is the sip part test. It tests everything excluding the serial port and the rtp transmission.
+the serial receive and send part is substituted by the function that read command from file and write to /dev/null.\
+
+the command file is edited by khexedit.

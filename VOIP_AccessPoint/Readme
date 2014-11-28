@@ -1,0 +1,19 @@
+作者：邹振华
+
+2007,4,03
+   development platform changed
+1) move to kdevelop3 as the IDE
+
+2007,3,08
+   huge change since sip-1.0
+1) use slickedit as the IDE
+2) does not support mutiple sdr now
+3) add support of the station jump
+4) use two serial port, one for contorl, the other one for audio
+
+2006,12,21
+1) main函数在serial_main.c文件中
+2) 有关的说明在doc目录下，全部用jpeg的方式说明
+3) sip_sim_test是一个小的关于sip_sim方面的测试程序，但是没有完成
+4) 程序大体完成，但是没有加入传送ring消息的线程，以及调用rtp程序的线程。
+5) 程序没有调试!
